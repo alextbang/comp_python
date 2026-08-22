@@ -8,4 +8,4 @@ match a:
     case 6:
         print("The value is 6")
     case _:  # default case
-        print("Better luck next times")
+        print("Better luck next time")
