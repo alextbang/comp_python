@@ -1,12 +1,12 @@
 
-print("this is break statement -->") 
+print("this is break statement and stops at 11 -->") 
 for i in range(0, 21):
     print(i)
     if i == 11:
         break # cancel the execution of the loop 
 
 
-print("this is continue statement and skip #10 -->")
+print("this is continue statement and skips #10 -->")
 
 for i in range(1, 20):
     if i == 10:
