@@ -10,5 +10,5 @@ print("this is a 'continue' statement and skips #10 -->")
 
 for i in range(1, 20):
     if i == 10:
-        continue # continue the loop for the next interation here itself, i.e., skip the code below and resume loop
+        continue # continue the loop for the next interation here itself, i.e., skip the code below/next lines and resume loop
     print(i)
