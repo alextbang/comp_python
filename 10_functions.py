@@ -9,6 +9,9 @@
 
 def average(a, b, c):
     d = (a+b+c)/3
-    print(d)
+    # print("average:",d)
+    return d
 
-average(3, 5, 1)
+o1 = average(3, 5, 1)
+
+print("o1:", o1)
