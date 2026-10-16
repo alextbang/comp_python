@@ -2,8 +2,10 @@
 
 import mymodule
 import requests
-
+# import antigravity
 
 mymodule.hello()    
 
+r = requests.get("https://www.google.com")
+print(r.text)
 
