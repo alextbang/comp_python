@@ -5,7 +5,7 @@ class Animal: # Parent class (superclass)
     def speak(self):
         print("speaking now...")
 
-class Dog (Animal):
+class Dog (Animal): # Dog inherits from Animal class; a child class (subclass) is created
     def speak(self):
         super().speak() # call method from parent class
         print("Dog.speak-->","Woof")

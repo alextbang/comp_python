@@ -1,6 +1,6 @@
 # Python has built-in moudles and external modules. 
 
-import mymodule
+import mymodule # custom module I created in mymodule.py
 import requests
 # import antigravity
 
