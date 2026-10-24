@@ -18,9 +18,9 @@ e2 = Employee("Jill", 34777)
 print(Employee.company)  # Accessing static variable using class name
 # print(Employee.salary) # This will raise an AttributeError since 'salary' is not a class variable
 
-e1.print_info()
+e1.print_info() # default way to call instance method using object reference
 e2.print_info() 
 
-print(e2.sum(5, 3))   # This will raise a TypeError since 'sum' is not an instance method and should be called using the class name, unless you add @staticmethod decorator to the method definition.
+print(e2.sum(5, 3))   # This will raise a TypeError since 'sum' is not an instance method and should be called using the class name, unless you add @staticmethod decorator to the method definition like we did here.
 
 #print(Employee.sum(5, 3))  # Correct way to call the static method when using the class name and when no @staticmethod decorator is used.
