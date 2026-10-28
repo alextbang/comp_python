@@ -21,5 +21,6 @@ try:
 except Exception as e:
     print(f"An error occurred: {e}")
 
+# use the keyword finally instead of print statements at the end of the program because print statements at the end of the program may not get executed if try except code block is inside a function or if the program exits early.
 finally:
     print("This is always excuted. Program completed.")
