@@ -1,4 +1,4 @@
-# walrus operator (:=) allows you to assign a value to a variable as part of an expression. It is useful for writing more concise code, especially in conditions and loops.
+# walrus operator (:=) allows you to assign a value to a variable as part of an expression. It is useful for writing more concise code, especially in conditions and loops. Never a replacement for regular assignment, but a handy tool for specific scenarios.
 
 # foods = list()
 # while True:
