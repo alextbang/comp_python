@@ -1,6 +1,6 @@
 # args
 
-def sum(*args):
+def sum(*args): # the * unpacks the arguments into a tuple
     # args will be a tubple containing all the positional arguments passed to the function.
     total = 0
     for number in args:
