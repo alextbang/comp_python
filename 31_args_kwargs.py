@@ -17,3 +17,4 @@ def order_pizza(size, *toppings, **details): # kwargs can be named anything, lik
 
 # Python will automatically collect all the additional keyword arguments like 'delivery' and 'tip' into a dictionary for **kwargs .
 order_pizza("large", "pepperoni", "mushrooms", "green peppers", delivery=True, tip=5)
+
