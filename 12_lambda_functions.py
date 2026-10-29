@@ -1,4 +1,4 @@
-# lambda functions are simple, anonymous inlinefunctions defined using the `lambda` keyword. They can take any number of arguments but can only have one expression.
+# lambda functions are simple, anonymous in line functions defined using the `lambda` keyword. They can take any number of arguments but can only have one expression.
 
 # take a single argument X and return its square
 square = lambda x: x * x
