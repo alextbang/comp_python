@@ -10,5 +10,5 @@ source .venv/bin/activate
 # 4. Safely install your package
 pip install xyz
 
-type 'exit' to leave virtual environment.
+type 'deactivate' to leave virtual environment.
 
