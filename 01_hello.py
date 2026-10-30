@@ -13,6 +13,3 @@ comment in python
 
 print("Hey this is\n" \
 "an escape character")
-
-
-print("hey hey, it works!")
